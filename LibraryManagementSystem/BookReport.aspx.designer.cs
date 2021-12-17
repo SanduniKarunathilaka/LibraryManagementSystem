@@ -11,106 +11,88 @@ namespace LibraryManagementSystem
 {
 
 
-    public partial class Login
+    public partial class BookReport
     {
 
         /// <summary>
-        /// form1 control.
+        /// LabelselectBranch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Label LabelselectBranch;
 
         /// <summary>
-        /// Label1 control.
+        /// ddlBranch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.DropDownList ddlBranch;
 
         /// <summary>
-        /// UserName control.
+        /// RequiredFieldValidatorBranch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserName;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorBranch;
 
         /// <summary>
-        /// RequiredFieldValidatorUserName control.
+        /// btnViewBranch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorUserName;
+        protected global::System.Web.UI.WebControls.Button btnViewBranch;
 
         /// <summary>
-        /// Label2 control.
+        /// Labelselectpublication control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label Labelselectpublication;
 
         /// <summary>
-        /// Password control.
+        /// ddlPublication control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Password;
+        protected global::System.Web.UI.WebControls.DropDownList ddlPublication;
 
         /// <summary>
-        /// RequiredFieldValidatorPassword control.
+        /// RequiredFieldValidatorPublication control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorPassword;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorPublication;
 
         /// <summary>
-        /// btn1 control.
+        /// btnViewPublication control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn1;
+        protected global::System.Web.UI.WebControls.Button btnViewPublication;
 
         /// <summary>
-        /// linkButton1 control.
+        /// GridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton linkButton1;
-
-        /// <summary>
-        /// linkButton2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton linkButton2;
-
-        /// <summary>
-        /// loginlbl1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label loginlbl1;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
     }
 }
