@@ -1,0 +1,89 @@
+﻿body {
+    background-image: url('../images/library1.jpg');
+    
+    /* background-image: url('../Images/green.jpg');*/
+    /*background-image: url('../Images/bluecolorimages.png');*/
+    background-size: cover;
+    background-color: BurlyWood;
+    background-repeat: repeat;
+    background-position: center;
+    font-family: sans-serif;
+    padding-top: 65px;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+
+
+.form-trans {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translateY(-5%.-30px);
+    width: 320px;
+    height: 400px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
+.form-trans2 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translateY(-5%.-30px);
+    width: 320px;
+    height: 450px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
+.form-font {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-link-font {
+    text-align: center;
+}
+
+.center-page {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 7px;
+    bottom: 181px;
+    left: 26px;
+    right: 451px;
+    margin: auto;
+}
+
+.space-vert {
+    margin: 20px;
+}
+
+.footer-position {
+    width: -40px;
+    height: auto;
+    position: absolute;
+    top: 600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
